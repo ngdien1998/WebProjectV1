@@ -1,0 +1,151 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contact-bar {
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    font-size: 13px;
+}
+
+.contact-bar-functions {
+    text-align: right;
+}
+
+.contact-bar-functions a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.slide-show {
+    position: relative;
+}
+
+.slide-show #navbar-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+#txt-tim-kiem {
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#btn-tim-kiem {
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+}
+
+#title {
+    text-align: center;
+}
+
+.main-menus {
+    margin: 64px 0;
+}
+
+#list-menu {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+#list-menu .food-menu {
+    border-radius: 26px;
+    font-family: "blonde script";
+    padding: 4px 12px 0;
+    font-size: 20px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.food-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.food-img img {
+    width: 100%;
+    border: solid 4px #e5e5e5;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    margin-bottom: 8px;
+}
+
+.food-img img:hover {
+    opacity: 0.4;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.price {
+    text-align: right;
+    font-family: "blonde script";
+    font-size: 20px;
+}
+
+.old-price {
+    color: #f44336;
+}
+
+.food-item .row * {
+    padding: 0;
+    margin: 0;
+}
+
+.food-name {
+    font-family: "blonde script";
+    color: #3d180c;
+    font-size: 24px;
+}
+
+.food-ads-sub-item img {
+    width: 100%;
+}
+
+.food-ads-sub-item:first-child img {
+    margin-bottom: 8px;
+}
+
+.food-ads-main-item img {
+    width: 100%;
+    height: 334px;
+}
+
+.food-ads-left {
+    padding-right: 4px;
+}
+
+.food-ads-right {
+    padding-left: 4px;
+}
+
+.food-ads-center {
+    padding: 0 4px;
+}
