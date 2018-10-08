@@ -5,6 +5,15 @@
 
 a {
     text-decoration: none !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 .text-brown {

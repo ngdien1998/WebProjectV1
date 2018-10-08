@@ -22,7 +22,7 @@
 }
 
 .carousel-item img {
-    height: 500px;
+    height: 600px;
 }
 
 .slide-show {
@@ -57,7 +57,7 @@
     height: 38px;
 }
 
-#title {
+.title {
     text-align: center;
 }
 
@@ -112,6 +112,7 @@
 
 .old-price {
     color: #f44336;
+    text-decoration: line-through;
 }
 
 .food-item .row * {
@@ -148,4 +149,51 @@
 
 .food-ads-center {
     padding: 0 4px;
+}
+
+.parallax-window {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#emp-title {
+    margin-bottom: 64px;
+}
+
+.parallax-window .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    color: #fff;
+    text-align: center;
+}
+
+.emp-list .row .col-3 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.price-off {
+    margin: 64px 0;
+}
+
+.price-off .title {
+    margin-bottom: 32px;
+}
+
+img.avatar-people-cmt {
+    width: 128px;
+    height: 128px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 16px 0;
+    border: 5px solid #fff;
+}
+
+#carouselExampleIndicators {
+    padding-bottom: 64px;
+}
+
+p.cmt-text {
+    width: 70%;
+    margin: 0 auto;
 }
