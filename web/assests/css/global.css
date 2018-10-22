@@ -64,6 +64,6 @@ a:hover {
     color: #616161 !important;
 }
 
-.text-striped {
-
+.title, .left-title, .right-title, .right-info, .sanphammoi, .product-info, .title-detail, .price-detail {
+    font-family: "blonde script";
 }
